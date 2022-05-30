@@ -3,7 +3,7 @@ import pkg from 'json-server';
 import path from 'path'; 
 import { fileURLToPath } from 'url';
 import express from 'express';
-
+// "concurrently \"react-scripts start\" \"npx json-server flights.json --port 3001\""
 
 const { create,  router: _router,  defaults , rewriter } = pkg;
 

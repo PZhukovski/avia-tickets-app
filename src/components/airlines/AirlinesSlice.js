@@ -3,8 +3,8 @@ import { createSlice, createAsyncThunk, createEntityAdapter, createSelector } fr
 import { getSortByBestPrice } from '../../helpers/getSortByBestPrice';
 
 
-const _apiBase = "http://localhost:3001/result"
-
+// const _apiBase = "http://localhost:3001/result"
+const _apiBase = "https://avia-tickets-app.herokuapp.com"
 const airlinesAdapter = createEntityAdapter({
     selectId: (airline) => airline.carrier
 });

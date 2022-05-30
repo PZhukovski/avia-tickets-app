@@ -7,8 +7,8 @@ import { getFilterTransfer } from '../../helpers/getFilterTransfer';
 import { getSortedPrice } from '../../helpers/getSortedPrice';
 import { getSelectedAirlines } from '../../helpers/getSelectedAirlines';
 
-const _apiBase = "http://localhost:3001/result"
-
+// const _apiBase = "http://localhost:3001/result"
+const _apiBase = "https://avia-tickets-app.herokuapp.com"
 const flightsAdapter = createEntityAdapter({
     sortComparer: (a, b) =>
         a.price - b.price
