@@ -9,7 +9,7 @@ const { create,  router: _router,  defaults , rewriter } = pkg;
 
 const __dirname = path.resolve();
 const server = create();
-const router = _router('users.json');
+const router = _router('flights.json');
 const middlewares = defaults({
   static: './build'
 });
