@@ -9,6 +9,7 @@ import { getSelectedAirlines } from '../../helpers/getSelectedAirlines.js';
 
 // const _apiBase = "http://localhost:3001/result"
 const _apiBase = "https://avia-tickets-app.herokuapp.com"
+
 const flightsAdapter = createEntityAdapter({
     sortComparer: (a, b) =>
         a.price - b.price
@@ -32,7 +33,7 @@ const initialState = flightsAdapter.getInitialState({
 export const fetchFlights = createAsyncThunk(
     'flights/fetchFlights=',
     async () => {
-        const res = await axios.get("http://localhost:3001/result");
+        const res = await axios.get(_apiBase);
         const { flights } = res.data;
         const data = flights.map((flight => {
             return {

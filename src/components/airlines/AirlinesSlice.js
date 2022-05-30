@@ -5,6 +5,7 @@ import { getSortByBestPrice } from '../../helpers/getSortByBestPrice.js';
 
 // const _apiBase = "http://localhost:3001/result"
 const _apiBase = "https://avia-tickets-app.herokuapp.com"
+
 const airlinesAdapter = createEntityAdapter({
     selectId: (airline) => airline.carrier
 });
@@ -17,7 +18,7 @@ const initialState = airlinesAdapter.getInitialState({
 export const fetchAirlines = createAsyncThunk(
     'airlines/fetchAirlines=',
     async () => {
-        const res = await axios.get("http://localhost:3001/result");
+        const res = await axios.get(_apiBase);
         const { bestPrices } = res.data;
         const airlines = bestPrices.ONE_CONNECTION.bestFlights;
         const result =  getSortByBestPrice(airlines);
