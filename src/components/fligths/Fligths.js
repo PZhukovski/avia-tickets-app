@@ -1,8 +1,7 @@
 import { useDispatch, useSelector } from 'react-redux';
-import { useState, useEffect } from "react";
-import { fetchFlights } from './FlightsSlice';
-import { allFlights, getViewFlights ,  viewFlightsChanged } from './FlightsSlice';
-import FlightItem from './FlightItem';
+import {  useEffect } from "react";
+import { getViewFlights ,  viewFlightsChanged, fetchFlights } from './FlightsSlice.js';
+import FlightItem from './FlightItem.js';
 import flights from './flights.scss';
 
 

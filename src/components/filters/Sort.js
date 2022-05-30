@@ -1,6 +1,6 @@
 import { useState } from "react"
 import { useDispatch } from "react-redux";
-import {sortFlightsChange} from '../fligths/FlightsSlice'
+import {sortFlightsChange} from '../fligths/FlightsSlice.js'
 
 export const Sort = () => {
 

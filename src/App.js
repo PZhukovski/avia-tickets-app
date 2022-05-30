@@ -1,6 +1,6 @@
 import './App.css';
-import Flights from './components/fligths/Fligths';
-import Aside from './components/filters/Aside';
+import Flights from './components/fligths/Fligths.js';
+import Aside from './components/filters/Aside.js';
 
 
 function App() {

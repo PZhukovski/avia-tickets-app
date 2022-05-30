@@ -1,8 +1,8 @@
 import aside from './aside.scss'
-import { Sort } from './Sort';
-import  FilterTransfer  from './FilterTranser';
-import SortedPrice from './SortedPrice';
-import SelectedAirLines from './SelectedAirlines';
+import { Sort } from './Sort.js';
+import  FilterTransfer  from './FilterTranser.js';
+import SortedPrice from './SortedPrice.js';
+import SelectedAirLines from './SelectedAirlines.js';
 
 const Aside = () => {
 

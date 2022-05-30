@@ -1,11 +1,11 @@
 import axios from 'axios';
 import { createSlice, createAsyncThunk, createEntityAdapter, createSelector } from "@reduxjs/toolkit";
-import { transformData } from '../../helpers/transformData';
-import { getPrice } from '../../helpers/getPrice';
-import { getSort } from '../../helpers/getSort';
-import { getFilterTransfer } from '../../helpers/getFilterTransfer';
-import { getSortedPrice } from '../../helpers/getSortedPrice';
-import { getSelectedAirlines } from '../../helpers/getSelectedAirlines';
+import { transformData } from '../../helpers/transformData.js';
+import { getPrice } from '../../helpers/getPrice.js';
+import { getSort } from '../../helpers/getSort.js';
+import { getFilterTransfer } from '../../helpers/getFilterTransfer.js';
+import { getSortedPrice } from '../../helpers/getSortedPrice.js';
+import { getSelectedAirlines } from '../../helpers/getSelectedAirlines.js';
 
 // const _apiBase = "http://localhost:3001/result"
 const _apiBase = "https://avia-tickets-app.herokuapp.com"

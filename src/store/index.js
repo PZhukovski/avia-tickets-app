@@ -1,6 +1,6 @@
 import { configureStore } from '@reduxjs/toolkit';
-import flights from '../components/fligths/FlightsSlice';
-import airlines from '../components/airlines/AirlinesSlice'
+import flights from '../components/fligths/FlightsSlice.js';
+import airlines from '../components/airlines/AirlinesSlice.js'
 
 
 export const store = configureStore({

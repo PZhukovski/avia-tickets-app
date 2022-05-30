@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react"
 import { useDispatch } from "react-redux";
-import { filterPriceChange } from '../fligths/FlightsSlice'
+import { filterPriceChange } from '../fligths/FlightsSlice.js'
 
 const SortedPrice = () => {
 

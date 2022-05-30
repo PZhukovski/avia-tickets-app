@@ -1,4 +1,4 @@
-import {getRussiaDay, getRussiaMounth} from './getRussiaDayAndMounth'
+import {getRussiaDay, getRussiaMounth} from './getRussiaDayAndMounth.js'
 
 export const getTransformTime =(dateData) =>{
    const date = new Date(Date.parse(dateData));

@@ -1,8 +1,8 @@
 import { useDispatch, useSelector } from 'react-redux';
 import { useState, useEffect } from "react";
-import { selectedAirlinesChange } from '../fligths/FlightsSlice';
-import { fetchAirlines, allAirlines } from '../airlines/AirlinesSlice'
-import { store } from '../../store/index';
+import { selectedAirlinesChange } from '../fligths/FlightsSlice.js';
+import { fetchAirlines, allAirlines } from '../airlines/AirlinesSlice.js'
+import { store } from '../../store/index.js';
 
 
 const SelectedAirLines = () => {

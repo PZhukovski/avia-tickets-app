@@ -1,6 +1,6 @@
 import axios from 'axios';
-import { createSlice, createAsyncThunk, createEntityAdapter, createSelector } from "@reduxjs/toolkit";
-import { getSortByBestPrice } from '../../helpers/getSortByBestPrice';
+import { createSlice, createAsyncThunk, createEntityAdapter } from "@reduxjs/toolkit";
+import { getSortByBestPrice } from '../../helpers/getSortByBestPrice.js';
 
 
 // const _apiBase = "http://localhost:3001/result"

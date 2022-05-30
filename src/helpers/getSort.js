@@ -1,4 +1,4 @@
-import { getFlyTimeSort } from "./getFlyTime"
+import { getFlyTimeSort } from "./getFlyTime.js"
 
 
 export const getSort = (flights, sort) => {

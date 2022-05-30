@@ -1,6 +1,6 @@
-import { getTransformTime } from '../../helpers/getTransformTime'
+import { getTransformTime } from '../../helpers/getTransformTime.js'
 import arrow from './arrow-right.svg';
-import { getFlyTime } from '../../helpers/getFlyTime';
+import { getFlyTime } from '../../helpers/getFlyTime.js';
 
 const FlightItem = ({ carrier, price, departure, arrival }) => {
     

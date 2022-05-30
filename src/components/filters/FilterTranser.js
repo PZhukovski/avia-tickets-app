@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react"
 import { useDispatch } from "react-redux";
-import { filterTansferChange } from '../fligths/FlightsSlice'
+import { filterTansferChange } from '../fligths/FlightsSlice.js'
 
 const FilterTransfer = () => {
 
