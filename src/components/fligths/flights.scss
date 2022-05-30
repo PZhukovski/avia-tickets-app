@@ -1,0 +1,116 @@
+.button-show{
+  padding: 3px 60px;
+  border-radius: 0%;
+  font-size: 16px;
+}
+.tickets {
+    width: 65%;
+}
+.ticket {
+    margin: 30px;
+}
+.ticket-info-title {
+    display: flex;
+    flex-direction: column;
+    background-color: #4169e1;
+    color: #fff;
+    padding: 5px 15px;
+    & .ticket-info-price,
+    .ticket-info-price-for-one {
+        display: flex;
+        justify-content: flex-end;
+    }
+    & .ticket-info-price {
+        font-size: 16px;
+        font-weight: 700;
+    }
+    & .ticket-info-price-for-one {
+        font-size: 10px;
+        font-weight: 600;
+    }
+}
+// .ticket-info-data {
+//     border-bottom: 2px solid #4169e1;
+// }
+.ticket-info-airoport {
+    display: flex;
+    justify-content: flex-start;
+    font-size: 16px;
+    margin: 5px 20px;
+}
+.img-arrow{
+    margin: 2px 5px;
+    & img{
+        width: 20px;
+        height: 18px;
+    }
+}
+.gray-border{
+  border: 0.5px solid gray;
+}
+.ticket-info-time{
+    display: flex;
+    justify-content: space-between;
+    margin: 10px 15px 5px 15px;
+}
+.ticket-info-time-time{
+    font-size: 16px;
+    margin: 0 10px;
+}
+.ticket-info-time-arrival , .ticket-info-time-departure{
+ display: flex;
+
+}
+.ticket-info-day{
+  display: flex;
+  font-size: 12px;
+  color: #4169e1;
+  text-align: center;
+  align-items: center;
+}
+
+.ticket-info-transfer-info{
+    position: relative;
+    text-align: center;
+    color: #FFB068;
+    font-size: 14px;
+    margin-bottom: 5px;
+}
+.ticket-info-transfer-info::before , 
+.ticket-info-transfer-info::after{
+  content: "";
+  position: absolute;
+  height: 1px;
+  background-color: gray;
+  top: 50%;
+  width: 37%;
+  transform: translate(0, -50%)
+}
+.ticket-info-transfer-info::before{
+    left: 5%;
+}
+.ticket-info-transfer-info::after{
+    right: 5%;
+}
+
+.ticket-info-airline{
+    text-align: left;
+    margin-bottom: 10px;
+    margin-left: 20px;
+   
+}
+.border-ticket-info{
+    border-bottom: 2px solid #4169e1;
+}
+.button-primary{
+    padding: 10px;
+    background-color: #FFB068;
+    width: 100%;
+    border: none;
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: 700;
+
+
+    
+}
