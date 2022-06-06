@@ -3,8 +3,8 @@ import { createSlice, createAsyncThunk, createEntityAdapter } from "@reduxjs/too
 import { getSortByBestPrice } from '../../helpers/getSortByBestPrice.js';
 
 
-// const _apiBase = "http://localhost:3001/result"
-const _apiBase = "https://avia-tickets-app.herokuapp.com"
+const _apiBase = "http://localhost:3001/result"
+// const _apiBase = "https://avia-tickets-app.herokuapp.com"
 
 const airlinesAdapter = createEntityAdapter({
     selectId: (airline) => airline.carrier
